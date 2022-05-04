@@ -1,5 +1,5 @@
 $colorsombra:orange;
-$boxshadow: box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 black;
+$boxshadow: box-shadow 0 4px 8px 0 lightblue, 0 6px 20px 0 black;
 
 *{
     margin: 0;
@@ -32,26 +32,26 @@ h2{
 }
 
 .carousel-control-prev-icon{
-    box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 black;
+    box-shadow: #000;
     background-color: #000;
     height: 30px;
 }
 
 .carousel-control-next-icon{
-    box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 black;
+    box-shadow: $boxshadow;
     background-color: #000;
     height: 30px;
 }
 
 .carousel-indicators{
-    box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 black;
+    box-shadow: $boxshadow;
     background-color: #000;
 }
 
 .galeria{
     margin: 20px 20px;
     text-align: center;
-    box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 black;
+    box-shadow: $boxshadow;
     transition: 1s;
     float: left;
     width: auto;
@@ -60,7 +60,7 @@ h2{
 .galeriarecetas{
     margin: 20px 20px;
     text-align: center;
-    box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 black;
+    box-shadow: $boxshadow;
     transition: 1s;
     float: left;
     width: auto;
@@ -296,7 +296,7 @@ textarea{
 }
 .grid-item{
     text-align: center;
-    box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 black;
+    box-shadow: $boxshadow;
     transition: 1s;
     float: left;
     width: auto;
