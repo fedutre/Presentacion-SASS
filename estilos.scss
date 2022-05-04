@@ -1,3 +1,6 @@
+$colorsombra:orange;
+$boxshadow: box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 black;
+
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +14,7 @@ h2{
     margin-bottom: 20px;
     color: black;
     text-align: center;
-    text-shadow: 1px 2px 2px grey, 0 0 25px orange, 0 0 5px orange;
+    text-shadow: 1px 2px 2px grey, 0 0 25px $colorsombra, 0 0 5px $colorsombra;
 }
 .d-block {
     width: auto;
@@ -93,7 +96,7 @@ header{
 }
 
 header .logo{
-    text-shadow: 1px 2px 2px grey, 0 0 25px orange, 0 0 5px orange;
+    text-shadow: 1px 2px 2px grey, 0 0 25px $colorsombra, 0 0 5px $colorsombra;
     font-size: 24px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
@@ -118,13 +121,13 @@ header ul li a{
 }
 
 .barra{
-    text-shadow: 1px 2px 2px grey, 0 0 25px orange, 0 0 5px orange;
+    text-shadow: 1px 2px 2px grey, 0 0 25px $colorsombra 0 0 5px $colorsombra;
     float: right;
     margin-right: auto;
 }
 
 header a:hover{ 
-    color: orange;
+    color: $colorsombra;
 }
 
 .logopyp{
@@ -190,7 +193,7 @@ img{
 }
 
 footer{
-    text-shadow: 1px 2px 2px grey, 0 0 25px orange, 0 0 5px orange;
+    text-shadow: 1px 2px 2px grey, 0 0 25px $colorsombra, 0 0 5px $colorsombra;
     padding: 0px;
     float: left;
     text-align: center;
@@ -203,7 +206,7 @@ footer{
 }
 
 footer p{
-    text-shadow: 1px 2px 2px black, 0 0 25px orange, 0 0 5px orange;
+    text-shadow: 1px 2px 2px black, 0 0 25px $colorsombra, 0 0 5px $colorsombra;
     color: white;
     font-size: 20px;
     background-color: black;
@@ -316,7 +319,7 @@ textarea{
 }
 
 .btn-primary{
-    background-color: orange;
+    background-color: $colorsombra;
     border: none;
 }
 
@@ -331,7 +334,7 @@ textarea{
 }
 
 .jumbotron{
-    background-color: orange;
+    background-color: $colorsombra;
     color: white;
     margin: 10px;
     
